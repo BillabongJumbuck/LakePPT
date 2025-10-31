@@ -41,7 +41,7 @@ h1 {
 
 .artifact-badges img {
   /* 限制图片的高度，使其符合徽章的大小 */
-  height: 100px; /* 根据实际视觉效果调整 */
+  height: 6vh; /* 根据实际视觉效果调整 */
   width: auto;
 }
 </style>
@@ -54,7 +54,6 @@ h1 {
 
 # Towards a Machine Learning-Assisted Kernel with LAKE
 
-
 <div class="abs-br m-6 text-xl">
   <a href="https://github.com/utcs-scea/LAKE.git" target="_blank" class="slidev-icon-btn">
     <carbon:logo-github />
@@ -63,9 +62,10 @@ h1 {
 
 ---
 transition: fade-out
+class: text-left
 ---
 
-# What is Slidev?
+# Introduction
 
 Slidev is a slides maker and presenter designed for developers, consist of the following features
 
@@ -81,21 +81,51 @@ Slidev is a slides maker and presenter designed for developers, consist of the f
 
 Read more about [Why Slidev?](https://sli.dev/guide/why)
 
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/features/slide-scope-style
--->
-
 <style>
+/* 针对当前页面的标题进行定制 */
 h1 {
+  /* 渐变背景和文本填充样式 - 保留 */
   background-color: #2B90B6;
   background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
+  /* 兼容 Firefox/其他浏览器 */
+  -moz-background-clip: text;
   -moz-text-fill-color: transparent;
+  
+  /* ************ 定位修改 ************ */
+  
+  /* 启用绝对定位 */
+  position: absolute; 
+  /* 放置在左上角，并留出边距 */
+  top: 4rem;      /* 距离顶部 4 个单位（可调整） */
+  left: 5rem;     /* 距离左侧 5 个单位（可调整） */
+  
+  /* 确保标题占据足够的宽度，避免长标题折叠在小空间内 */
+  width: 70%; 
+  /* 覆盖默认的居中对齐，改为左对齐 */
+  text-align: left !important; 
+  
+  /* 保持标题的学术风格字体 */
+  font-family: 'Times New Roman', Times, serif; 
+  font-weight: 700; 
+  font-size: 2.2rem;
+  line-height: 1.2;
 }
+
+/* 覆盖 layout: cover 或 class: text-center 的默认居中行为 */
+.slidev-layout.cover {
+  /* 核心：将 flex 容器的对齐方式改为从顶部开始（如果布局使用 flex） */
+  align-items: flex-start !important; 
+  /* 确保内容从左侧开始 */
+  justify-content: flex-start !important; 
+}
+
+/* 清除容器的文本居中，防止 H1 被包裹在一个居中容器中 */
+.slidev-page-1 {
+    text-align: left !important;
+}
+
 </style>
 
 <!--
