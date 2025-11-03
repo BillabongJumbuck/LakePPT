@@ -1,117 +1,25 @@
 --- 
 # try also 'default' to start simple
 theme: default
-# some information about your slides (markdown enabled)
-title: Towards a Machine Learning-Assisted Kernel with LAKE
-# apply UnoCSS classes to the current slide
-class: text-center
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
 transition: slide-left
-# Slidev Frontmatter
-layout: cover
+src: ./pages/page1.md
 ---
 
-<style>
-/* 针对当前页面的标题进行定制 */
-h1 {
-  /* 确保使用衬线字体 */
-  font-family: 'Arial', Times, serif; 
-  /* 粗体 */
-  font-weight: 400; 
-  /* 较大的字号，使其在PPT中醒目 */
-  font-size: 2rem; /* 大致模仿 24pt 的效果，可在36px-48px之间调整 */
-  /* 居中对齐 */
-  text-align: center;
-  /* 增加标题和下方元素的间距 */
-  margin-bottom: 0.5em; 
-  /* 确保文本使用 Title Case（默认，无需CSS修改） */
-}
-/* 新增 CSS：用于定位徽章的容器 */
-.artifact-badges {
-  /* 使用绝对定位 */
-  position: absolute;
-  /* 放置在顶部右侧 */
-  top: 1rem;
-  right: 1rem;
-  /* 使用 Flexbox 使徽章水平排列 */
-  display: flex;
-  /* 徽章之间留出间隙 */
-  gap: 0.5rem; 
-}
-
-.artifact-badges img {
-  /* 限制图片的高度，使其符合徽章的大小 */
-  height: 12vh; /* 根据实际视觉效果调整 */
-  width: auto;
-}
-</style>
-
-<div class="artifact-badges">
-  <img src="https://www.acm.org/binaries/content/gallery/acm/publications/artifact-review-v1_1-badges/artifacts_available_v1_1.png" alt="Artifacts Available" title="Artifacts Available">
-  <img src="https://www.acm.org/binaries/content/gallery/acm/publications/artifact-review-v1_1-badges/artifacts_evaluated_functional_v1_1.png" alt="Artifacts Evaluated" title="Artifacts Evaluated">
-  <img src="https://www.acm.org/binaries/content/gallery/acm/publications/artifact-review-v1_1-badges/results_reproduced_v1_1.png" alt="Reproducibility" title="Reproducibility">
-</div>
-
-# Towards a Machine Learning-Assisted Kernel with LAKE
-
-<div class="abs-br m-6 text-xl">
-  <a href="https://github.com/utcs-scea/LAKE.git" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
-  </a>
-</div>
-
 ---
-transition: fade-out
-class: text-left
-title: introduction
+src: ./pages/page2.md
 ---
 
-<h1>INTRODUCTION</h1>
-<p style="height=1px"></p>
-<p>
-&nbsp;&nbsp;&nbsp;&nbsp;The increasing complexity of modern operating systems, coupled with the rapid diversification of hardware and the steady evolution of machine learning, motivates the exploration of ML's potential to enhance decision-making within OS kernels.
-<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;While ML-backed policies have been proposed for individual OS subsystems—such as CPU load balancing, file system prefetching, and I/O latency prediction—previous work has only demonstrated the potential benefits of ML for these distinct components. This current work, however, focuses instead on the systems challenges that emerge from the deep integration of ML decision-making into an OS kernel.
-</p>
+---
+src: ./pages/page3.md
+---
 
-<style>
-h1 {
-  /* 渐变背景和文本填充样式 - 保留 */
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  /* 兼容 Firefox/其他浏览器 */
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  /* 确保标题占据足够的宽度，避免长标题折叠在小空间内 */
-  width: 70%; 
-  /* 覆盖默认的居中对齐，改为左对齐 */
-  text-align: left !important; 
-  /* 保持标题的学术风格字体 */
-  font-family: 'Times New Roman', Times, serif; 
-  font-weight: 700; 
-  /* 标题字号：略微调大到 2.5rem，确保清晰 */
-  font-size: 2.5rem; 
-  line-height: 1.2;
-}
-.slidev-layout.cover {
-  /* 核心：将 flex 容器的对齐方式改为从顶部开始（如果布局使用 flex） */
-  align-items: flex-start !important; 
-  /* 确保内容从左侧开始 */
-  justify-content: flex-start !important; 
-}
-.slidev-page-1 {
-  text-align: left !important;
-}
-p {
-    font-size: 1.5rem; /* 约等于 24px/18pt */
-    font-family: 'Times New Roman', Times, serif;
-    line-height: 1.6;
-    color: #000000 !important;
-}
-</style>
+---
+src: ./pages/page4.md
+---
+
+---
+src: ./pages/page5.md
+---
 
 ---
 transition: slide-up
