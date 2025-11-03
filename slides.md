@@ -11,27 +11,50 @@ src: ./pages/page2.md
 
 ---
 src: ./pages/page3.md
-level: 2
 ---
 
 ---
 src: ./pages/page4.md
-level: 2
 ---
 
 ---
 src: ./pages/page5.md
-level: 2
+---
+
+---
+src: ./pages/page5_1.md
 ---
 
 ---
 src: ./pages/page6.md
-level: 2
+---
+
+---
+src: ./pages/page7.md
+---
+
+---
+src: ./pages/page8.md
+---
+
+---
+src: ./pages/page9.md
+---
+
+---
+src: ./pages/page10.md
+---
+
+---
+src: ./pages/page11.md
+---
+
+---
+src: ./pages/pagen.md
 ---
 
 ---
 transition: slide-up
-level: 2
 ---
 
 # Navigation
