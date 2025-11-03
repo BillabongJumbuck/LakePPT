@@ -1,13 +1,13 @@
 ---
 transition: fade-out
 class: text-left
-title: Cchallenges-2
+title: Challenges-2
 ---
 
 <h1>CHANLLENGES</h1>
 <p style="height=1px"></p>
 <p>
-&nbsp;&nbsp;&nbsp;&nbsp;C2:
+&nbsp;&nbsp;&nbsp;&nbsp;C2:加速效益的可变性
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;The benefit of acceleration for ML is subsystem-, workload-, and hardware-dependent, because hardware acceleration must amortize the cost of data transfers.
 <br>
@@ -52,3 +52,8 @@ p {
     line-height: 1.6;
 }
 </style>
+
+<!--
+- ML和加速的效益取决于子系统、工作负载和硬件
+- 硬件加速必须分摊数据传输成本
+-->

@@ -1,7 +1,7 @@
 ---
 transition: fade-out
 class: text-left
-title: Cchallenges-3
+title: Figure 1
 ---
 
 <div class="flex-grow-3 flex flex-col items-center justify-start">

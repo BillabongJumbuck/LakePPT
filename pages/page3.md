@@ -1,13 +1,13 @@
 ---
 transition: fade-out
 class: text-left
-title: Cchallenges-1
+title: Challenges-1
 ---
 
 <h1>CHANLLENGES</h1>
 <p style="height=1px"></p>
 <p>
-&nbsp;&nbsp;&nbsp;&nbsp;C1:
+&nbsp;&nbsp;&nbsp;&nbsp;C1:内核空间中加速器（GPU/TPU）的可访问性差
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;Use of specialized hardware such as GPUs/TPUs can be critical for reducing the performance impact of ML algorithms, but poor accessibility of accelerators in kernel space is a barrier to adoption. Accelerator offload introduces additional overheads when accelerators are I/O attached and creates potential for new forms of contention between user and kernel space for using accelerators.
 <br>
@@ -51,5 +51,8 @@ p {
 </style>
 
 
-
+<!-- 
+- 专用硬件对ML算法的性能至关重要
+- 现有加速器支持主要在用户空间
+-->
 

@@ -11,14 +11,22 @@ src: ./pages/page2.md
 
 ---
 src: ./pages/page3.md
+level: 2
 ---
 
 ---
 src: ./pages/page4.md
+level: 2
 ---
 
 ---
 src: ./pages/page5.md
+level: 2
+---
+
+---
+src: ./pages/page6.md
+level: 2
 ---
 
 ---

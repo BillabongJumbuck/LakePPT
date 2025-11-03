@@ -1,16 +1,16 @@
 ---
 transition: fade-out
 class: text-left
-title: Introduction
+title: Challenges-3
 ---
 
-<h1>INTRODUCTION</h1>
+<h1>CHANLLENGES</h1>
 <p style="height=1px"></p>
 <p>
-&nbsp;&nbsp;&nbsp;&nbsp;The increasing complexity of modern operating systems, coupled with the rapid diversification of hardware and the steady evolution of machine learning, motivates the exploration of ML's potential to enhance decision-making within OS kernels.
+&nbsp;&nbsp;&nbsp;&nbsp;C3:抽象层与数据共享的矛盾
 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;A fundamental tension exists between abstraction layer boundaries and the need for cross-layer data sharing to expose features for training and inference.
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;While ML-backed policies have been proposed for individual OS subsystems—such as CPU load balancing, file system prefetching, and I/O latency prediction—previous work has only demonstrated the potential benefits of ML for these distinct components. This current work, however, focuses instead on the systems challenges that emerge from the deep integration of ML decision-making into an OS kernel.
 </p>
 
 <style>
@@ -50,13 +50,7 @@ p {
 }
 </style>
 
-<!-- 
-背景
-- 现代操作系统日益复杂，硬件多样化 
-- 机器学习（ML）在决策优化方面的潜力 
-- 探索ML改进操作系统内核决策的可能性 
-研究目标:
-- 用ML驱动的决策替代内核中手动调优的启发式算法
-- 考虑对内核设计、共享OS组件和硬件加速访问的影响
-- 研究了五个基于启发式的内核子系统（例如：进程调度、内存管理）
+<!--
+- 训练和推理需要跨层数据共享以暴露特征
+- 抽象层边界阻碍了数据收集和管理
 -->
