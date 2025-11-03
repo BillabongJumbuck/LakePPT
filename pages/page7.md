@@ -6,8 +6,8 @@ title: LAKE
 
 <!-- 主标题动画 -->
 <h1 class="lake-title text-[5vw] font-serif font-bold leading-tight text-center flex justify-center items-center">
-  <span style="color:#156b8d"><b>L</b></span><span style="color:gray">earning-assisted,&nbsp</span> 
-  <span style="color:#156b8d"><b>A</b></span><span style="color:gray">ccelerated&nbsp</span>
+  <span style="color:#156b8d"><b>L</b></span><span style="color:gray">earning-assisted,&nbsp;</span> 
+  <span style="color:#156b8d"><b>A</b></span><span style="color:gray">ccelerated&nbsp;</span>
   <span style="color:#156b8d"><b>KE</b></span><span style="color:gray">rnel</span>
 </h1>
 
