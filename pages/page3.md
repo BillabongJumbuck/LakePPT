@@ -7,7 +7,7 @@ title: Cchallenges-1
 <h1>CHANLLENGES</h1>
 <p style="height=1px"></p>
 <p>
-&nbsp;&nbsp;&nbsp;&nbsp;C1:
+&nbsp;&nbsp;&nbsp;&nbsp;C1:没有现成的为内核程序设计的加速器API,
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;Use of specialized hardware such as GPUs/TPUs can be critical for reducing the performance impact of ML algorithms, but poor accessibility of accelerators in kernel space is a barrier to adoption. Accelerator offload introduces additional overheads when accelerators are I/O attached and creates potential for new forms of contention between user and kernel space for using accelerators.
 <br>
